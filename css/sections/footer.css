@@ -57,3 +57,21 @@
   height: 45%;
   object-fit: contain;
 }
+
+@media screen and (max-width: 767px) {
+  .footer ul{
+    gap: 25px;
+
+  }
+  .footer__nav {
+    display: flex;
+    justify-content: center;
+  }
+  .footer__container {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

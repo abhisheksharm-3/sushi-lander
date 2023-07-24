@@ -200,3 +200,11 @@
     font-size: 24px;
     color: var(--secondary-color);
 }
+
+@media screen and (max-width: 767px) {
+    .popular-foods__filters {
+        justify-content: unset;
+    }
+  }
+  
+
