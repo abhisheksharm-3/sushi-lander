@@ -57,6 +57,12 @@
   height: 45%;
   object-fit: contain;
 }
+.footer__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
 
 @media screen and (max-width: 767px) {
   .footer ul{
